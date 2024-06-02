@@ -42,7 +42,8 @@ This Script/Project was forked from RalfZim/venus.dbus-fronius-smartmeter.
 
     Then switch to the NodeRed of the Cerbo: https://venusip:1881.
 
-    Fill the individual data points there with the Node Custom Control. 
+    Fill the individual data points there with the Node "Custom Control". 
+
 
 
 
