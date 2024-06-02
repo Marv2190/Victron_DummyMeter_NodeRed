@@ -1,8 +1,14 @@
 # Victron_DummyMeter_NodeRed
 With this DummyMeter you can use every Datasource NodeRed support to publish Data to Victron Dbus (Gridmeter)
 
+
 # Disclaimer
 This Script/Project was forked from RalfZim/venus.dbus-fronius-smartmeter.
+
+![scriptRuns](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/522c7a27-6fe1-40e9-aa71-33005e92a3e4)
+![NodeRed](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/12588376-c111-4766-9c85-5725431ff136)
+![Cerbo2](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/885eb751-36b4-4003-90c0-a0e6a6f5d7bc)
+![Cerbo](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/f834f423-5ec7-4327-b8e6-5f7040843406)
 
 # Installation
 
@@ -68,3 +74,9 @@ If you want to restart the script, for example after changing it, just run the f
 /data/DummyGridMeter/kill_me.sh
 
 The daemon-tools will restart the scriptwithin a few seconds.
+
+You can use a Hitchi SML Reader or something like that. So need for a EM24 etc anymore.
+
+![20210819_144334](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/5b91f310-6cf5-4709-b5c5-ada52defcfeb)
+![20210819_013136](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/ec720004-67e4-43fc-bdb8-916b0cfe3d30)
+![Tasmotaview](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/4fbb9959-a11c-4014-a073-3a488548d9dc)
