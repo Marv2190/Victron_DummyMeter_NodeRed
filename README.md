@@ -80,4 +80,5 @@ You can use a Hitchi SML Reader or something like that. So need for a EM24 etc a
 
 ![20210819_144334](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/5b91f310-6cf5-4709-b5c5-ada52defcfeb)
 ![20210819_013136](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/ec720004-67e4-43fc-bdb8-916b0cfe3d30)
-![Tasmotaview](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/4fbb9959-a11c-4014-a073-3a488548d9dc)
+![Tasmotaview](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/411550f0-88ec-4b90-a500-fba4e2511f13)
+
