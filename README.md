@@ -26,16 +26,16 @@ This Script/Project was forked from RalfZim/venus.dbus-fronius-smartmeter.
     ln -s /data/DummyGridMeter/service /service/DummyGridMeter
 
 
-Am besten dann in crontab den Befehl  ln -s /data/DummyGridMeter/service /service/DummyGridMeter nach reboot ausführen lassen!
-@reboot ln -s "/data/DummyGridMeter/service" "/service/DummyGridMeter"
+    Am besten dann in crontab den Befehl  ln -s /data/DummyGridMeter/service /service/DummyGridMeter nach reboot ausführen lassen!
+    @reboot ln -s "/data/DummyGridMeter/service" "/service/DummyGridMeter"
 
 
 
-You should now be able to see the DummyMeter with the values 0 in the Cerbo.
+    You should now be able to see the DummyMeter with the values 0 in the Cerbo.
 
-Then switch to the NodeRed of the Cerbo: https://venusip:1881.
+    Then switch to the NodeRed of the Cerbo: https://venusip:1881.
 
-Fill the individual data points there with the Node Custom Control. 
+    Fill the individual data points there with the Node Custom Control. 
 
 
 
