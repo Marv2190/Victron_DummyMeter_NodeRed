@@ -7,7 +7,6 @@ This Script/Project was forked from RalfZim/venus.dbus-fronius-smartmeter.
 
 # Pictures (Source  SML Reader over MQTT)
 
-![scriptRuns](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/522c7a27-6fe1-40e9-aa71-33005e92a3e4)
 ![NodeRed](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/12588376-c111-4766-9c85-5725431ff136)
 ![Cerbo2](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/885eb751-36b4-4003-90c0-a0e6a6f5d7bc)
 ![Cerbo](https://github.com/Marv2190/Victron_DummyMeter_NodeRed/assets/24812585/f834f423-5ec7-4327-b8e6-5f7040843406)
