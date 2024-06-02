@@ -13,6 +13,8 @@ This Script/Project was forked from RalfZim/venus.dbus-fronius-smartmeter.
 
 # Installation
 
+    You need the Large Image on your GX/Venus !
+
     Copy the files to the /data folder on your venus:
         /data/DummyGridMeter/DummyGridMeter.py
         /data/DummyGridMeter/kill_me.sh
