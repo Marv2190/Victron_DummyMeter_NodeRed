@@ -33,10 +33,6 @@ path_UpdateIndex = '/UpdateIndex'
 
 
 
-# Variblen setzen
-verbunden = 0
-durchlauf = 0
-
 
 
 
@@ -56,11 +52,16 @@ class DbusDummyService:
 
     # Create the mandatory objects
     self._dbusservice.add_path('/DeviceInstance', deviceinstance)
-    self._dbusservice.add_path('/ProductId', 45069) # value used in ac_sensor_bridge.cpp of dbus-cgwacs
+    self._dbusservice.add_path('/ProductId', 45069) # value used in ac_sensor_bridge.cpp of dbus-cgwacs. Use 0xA144 for PV Inverter
     self._dbusservice.add_path('/ProductName', productname)
+    self._dbusservice.add_path('/CustomName', productname)
+    self._dbusservice.add_path('/Latency', None)
     self._dbusservice.add_path('/FirmwareVersion', 0.1)
+    self._dbusservice.add_path('/DeviceType', 345)
+    self._dbusservice.add_path('/Role', "grid") # grid , pvinverter , genset or acload.
     self._dbusservice.add_path('/HardwareVersion', 0)
     self._dbusservice.add_path('/Connected', 1)
+    self._dbusservice.add_path('/Serial', 123456789)
 
     for path, settings in self._paths.items():
       self._dbusservice.add_path(
@@ -99,7 +100,7 @@ def main():
       '/Ac/L3/Power': {'initial': 0},
       '/Ac/Energy/Forward': {'initial': 0}, # energy bought from the grid
       '/Ac/Energy/Reverse': {'initial': 0}, # energy sold to the grid
-      path_UpdateIndex: {'initial': 0},
+     # path_UpdateIndex: {'initial': 0},
     })
   logging.info('Connected to dbus, and switching over to gobject.MainLoop() (= event based)')
   mainloop = gobject.MainLoop()
